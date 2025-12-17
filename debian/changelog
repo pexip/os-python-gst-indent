@@ -1,0 +1,5 @@
+python-gst-indent (1.0.0-0+pexip24u1) pexip; urgency=medium
+
+  * Prepare Pexip Packaging
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Wed, 17 Dec 2025 09:30:38 +0000
