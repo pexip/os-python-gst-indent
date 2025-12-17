@@ -9,6 +9,7 @@ Build-Depends:
  python3-setuptools,
  python3-all,
  python3-mesonpy,
+ pybuild-plugin-pyproject,
 Standards-Version: 4.6.2
 Homepage: https://pypi.org/project/gst-indent/
 Vcs-Browser: https://github.com/pexip/os-python-gst-indent
