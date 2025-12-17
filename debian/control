@@ -1,5 +1,5 @@
 Source: python-gst-indent
-Section: unknown
+Section: python
 Priority: optional
 Maintainer: Pexip AS <packaging@pexip.com>
 Rules-Requires-Root: no
@@ -9,19 +9,15 @@ Build-Depends:
  python3-setuptools,
  python3-all,
 Standards-Version: 4.6.2
-Homepage: <insert the upstream URL, if relevant>
+Homepage: https://pypi.org/project/gst-indent/
 Vcs-Browser: https://github.com/pexip/os-python-gst-indent
 Vcs-Git: https://github.com/pexip/os-python-gst-indent.git
 
 Package: python3-gst-indent
-Architecture: all
+Architecture: any
 Depends:
  ${python3:Depends},
  ${misc:Depends},
-Suggests:
- python-python-gst-indent-doc,
-Description: <insert up to 60 chars description> (Python 3)
- <Insert long description, indented with spaces.>
- .
- This package installs the library for Python 3.
-
+Description: gst-indent code formatting tool
+ gst-indent is a fork of GNU indent 2.2.12 with modifications for GStreamer's
+ coding style
